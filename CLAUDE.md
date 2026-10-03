@@ -22,6 +22,8 @@ Research data and the agreed 60 questions: `docs/research.md`.
   Big data lists (fields, jobs, countries) live in `js/data.js` with `ar` and `en` side by side.
 - Routing by URL hash: `#/`, `#/start`, `#/q/<section>/<index>`, `#/done/<section>`.
 - Answers saved in localStorage (`cvapp.answers`) only, for now.
+- Hosting (owner chose): GitHub Pages from `main` / root → https://vmusvlog-cyber.github.io/cv-app/
+  (repo must be public for free Pages; Netlify free credits ran out). `.nojekyll` = serve files as-is.
 
 ## Flow (agreed with owner)
 Start question "Who are you?" (graduate / experienced / licensed / craft) → 4 parts × 15 questions:
